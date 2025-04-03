@@ -443,6 +443,8 @@ a:hover {
     height: 3rem;
     margin-left: var(--spacing-sm);
     transition: var(--transition);
+    background-color: rgb(65, 63, 63);
+    border-radius: 90%;
 }
 
 .work__code:hover {
