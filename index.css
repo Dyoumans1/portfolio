@@ -52,6 +52,13 @@ html {
     scroll-behavior: smooth;
 }
 
+.header__text-box {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    padding-left: 4rem; /* Add this line to create left padding */
+}
+
 @media(max-width: 1000px) {
     html {
         font-size: 56%;
